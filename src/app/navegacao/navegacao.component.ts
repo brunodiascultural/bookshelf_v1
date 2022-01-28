@@ -10,6 +10,7 @@ import { MenuNavegador } from './../modelosInterface/menuNavegador';
 import { AutenticacaoFirebaseService } from './../servicosInterface/autenticacao-firebase.service';
 import { NavegacaoService } from './../servicosInterface/navegacao.service';
 
+
 @Component({
   selector: 'app-navegacao',
   templateUrl: './navegacao.component.html',
@@ -17,7 +18,7 @@ import { NavegacaoService } from './../servicosInterface/navegacao.service';
 })
 export class NavegacaoComponent {
   usuario$ = this.autenticacaoFirebaseService.usuarioLogado$;
-  //Itens co menu principal.
+  //Itens com menu principal.
   logoMenu='../../assets/imagens/logoBS4.png';
   //Itens de icones e imagens de navegação.
   iconeGeral='../../assets/imagens/ShelfBook.png';
@@ -35,21 +36,25 @@ export class NavegacaoComponent {
     private telaLogin: MatDialog,
     private rotas: Router,
     private autenticacaoFirebaseService: AutenticacaoFirebaseService,
-    private navegadorService: NavegacaoService
-    ) {
+    private navegadorService: NavegacaoService)
+  {
       this.itensMenu$ = navegadorService.listagemMenu()
       .pipe(
         catchError(error =>{
           return of([])
         })
       )
-    }
+  }
+
+
 
     abrirLogin(erroMsg: string){
       this.telaLogin.open(AppLoginComponent,{
         data: erroMsg
       })
     }
+
+
 
     sairUsuario(){
       this.autenticacaoFirebaseService.sairLogin().subscribe(() =>{
