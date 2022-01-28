@@ -21,6 +21,11 @@
         <mat-error *ngIf="senha?.errors?.['required']">Entre coma a confirmação</mat-error>
         <mat-error *ngIf="formularioCadastro.errors?.['senhaConfirmada']">Entre coma a confirmação</mat-error>
       </mat-form-field>
+      <mat-form-field>
+        <input matInput placeholder="URI da foto do seu Github" formControlName="url">
+        <mat-error *ngIf="url?.errors?.['required']">Entre coma a url da foto</mat-error>
+        <mat-error *ngIf="formularioCadastro.errors?.['senhaConfirmada']">Entre coma a confirmação</mat-error>
+      </mat-form-field>
       <mat-card-footer>
         <button mat-button color="accent" type="submit">Cadastrar</button>
         <button mat-button color="primary">Fechar</button>
