@@ -1,24 +1,43 @@
 [
   {
-    "titulo": "O melhor Livro de Janeiro",
-    "subtitulo":"Os melhores livros do início do ano.",
+    "titulo": "O melhor jeito de começar o ano",
+    "subtitulo":"As melhores recomendações de livros do início de 2022.",
     "img": "../../assets/imagens/cover1.png",
-    "conteudo":"Vamos listar o que de melhor foi lançado no mês de janeiro de 2022, também vamos tratar do detaque para The Witcher e sua coleção de livros.",
+    "conteudo":"Ano novo, leitura nova. Aqui separamos alguns livros para você retomar o hábito da leitura. 'A arte sempre sustenta e nutre a alma'" ,
+    "estrela": "star",
     "link":[
-      {"ref":"https://www.theenemy.com.br/social/criticas/review-the-witcher-temporada-2#:~:text=Honestamente%2C%20a%20breve%20apari%C3%A7%C3%A3o%20da,Ciri%20em%20termos%20de%20magia.", "texto":"The Enemy"},
-      {"ref":"https://jovemnerd.com.br/nerdbunker/the-witcher-vale-a-pena-os-livros/","texto":"Jovem Nerd"}
+      {"ref":"https://www.amazon.com.br/Belo-mundo-onde-voc%C3%AA-est%C3%A1/dp/6559213323/ref=asc_df_6559213323/?tag=googleshopp00-20&linkCode=df0&hvadid=379787583770&hvpos=&hvnetw=g&hvrand=13346484367193898373&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1001773&hvtargid=pla-1447058438127&psc=1",
+        "texto":"Belo mundo, onde você está?"},
+      {"ref":"https://www.amazon.com.br/Devoradores-estrelas-Andy-Weir-ebook/dp/B094RCZF5V/ref=sr_1_1?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=3OOC8UEXOLW0E&keywords=Devoradores+de+estrelas&qid=1643300749&sprefix=devoradores+de+estrelas%2Caps%2C707&sr=8-1" ,
+        "texto": "Devoradores de estrelas"},
+      {"ref": "https://www.amazon.com.br/Meu-caminho-at%C3%A9-cadeira-n%C3%BAmero/dp/6586047609/ref=sr_1_1?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=Meu+caminho+at%C3%A9+a+cadeira+n%C3%BAmero+1&qid=1643302790&s=books&sr=1-1",
+        "texto": "Meu caminho até a cadeira número 1"},
+      {"ref":"https://www.americanas.com.br/busca/livro-amor-e-gelato?utm_medium=buscappc&utm_source=google&utm_campaign=marca:acom%3bmidia:buscappc%3bformato:nobranding%3bsubformato:dsa%3bidcampanha:sch_dsa_camp_geral&epar=bp_nb_ov_go_dsa_livros&WT.srch=1&opn=YZMEZP&gclid=Cj0KCQiAosmPBhCPARIsAHOen-PYZeFFeutz2RsjXkxlulX_Mgz5Hk6p1bh8i6UT2brl2eI0FQAfB4IaAl7UEALw_wcB",
+        "texto":"Amor e gelato"},
+      {"ref":"https://www.amazon.com.br/avesso-pele-Jeferson-Ten%C3%B3rio/dp/8535933395/ref=sr_1_2?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=18TWGZJ0S6CJR&keywords=O+avesso+da+pele&qid=1643303572&s=books&sprefix=o+avesso+da+pele%2Cstripbooks%2C521&sr=1-2",
+        "texto":"O avesso da pele"},
+      {"ref":"https://www.amazon.com.br/Lucas-Esperan%C3%A7a-%C3%9Altimo-Juliano-Loureiro-ebook/dp/B08WBY756X/ref=sr_1_1?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=1ABM1JKA7VB6J&keywords=Lucas%3A+a+Esperan%C3%A7a+do+%C3%9Altimo&qid=1643303657&s=books&sprefix=lucas+a+esperan%C3%A7a+do+%C3%BAltimo%2Cstripbooks%2C715&sr=1-1",
+        "texto":"Lucas: a Esperança do Último"}
+
     ],
     "cols": 2,
     "rows": 3
   },
   {
     "titulo": "Dica de Livros: Ler e Pensar",
-    "subtitulo":"Livros que vão fazer você pensar e repensar",
+    "subtitulo":"Livros que vão fazer você pensar e agir diferente",
     "img": "../../assets/imagens/cover2.png",
-    "conteudo":"Lista de livros que vão fazer você pensar sobre assuntos de existência pessoal e outras alegorias para filosofia geral",
+    "conteudo":"Lista de livros que vão fazer você pensar sobre assuntos de crescimento social, pessoal e profissional",
+    "estrela": "star",
     "link":[
-      {"ref":"https://exame.com/carreira/13-livros-para-pensar-e-fazer-diferente-daqui-para-frente/", "texto":"Revista Exame"},
-      {"ref":"https://www.pensador.com/livros_para_mudar_a_sua_vida/","texto":"O Pensador"}
+      {"ref":"https://www.amazon.com.br/ponto-virada-Tipping-pequenas-diferen%C3%A7a-ebook/dp/B00B1B0VOC/ref=sr_1_1?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=ponto+da+virada&qid=1643307161&s=books&sr=1-1",
+        "texto":"O Ponto da Virada"},
+      {"ref":"https://www.amazon.com.br/Essential-People-Skills-Yourself-Conflicts/dp/1416595481/ref=sr_1_1?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=35HSA2V8A3R27&keywords=The+5+Essential&qid=1643306881&s=books&sprefix=p%2Cstripbooks%2C3147&sr=1-1&ufe=app_do%3Aamzn1.fos.6d798eae-cadf-45de-946a-f477d47705b9",
+        "texto":"The 5 Essentials Peopple Skils"},
+      {"ref":"https://www.amazon.com.br/poder-do-h%C3%A1bito-Charles-Duhigg/dp/8539004119/ref=asc_df_8539004119/?tag=googleshopp00-20&linkCode=df0&hvadid=379749006424&hvpos=&hvnetw=g&hvrand=15576763973296183727&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1001773&hvtargid=pla-333762635690&psc=1",
+        "texto":"O Poder do Hábitos"},
+      {"ref":"https://www.amazon.com.br/Amar-brincar-Fundamentos-esquecidos-humano/dp/8572420487/ref=sr_1_1?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=2L9ZMR8SLZG9N&keywords=Amar+e+brincar&qid=1643306702&s=books&sprefix=amar+e+brincar%2Cstripbooks%2C1614&sr=1-1",
+        "texto":"Amar e brincar"}
     ],
     "cols": 1,
     "rows": 2
@@ -28,39 +47,41 @@
     "subtitulo":"Em janeiro vamos disponibilizar livros que promovam as discussões",
     "img": "../../assets/imagens/cover3.png",
     "conteudo":"Aqui você vai encontrar os livros que serão as melhores fontes de debates e construção de retórica para o mês de janeiro.",
+    "estrela": "star",
     "link":[
-      {"ref":"https://www.prolivro.org.br/2021/01/20/ciclo-de-debates-da-retratos-da-leitura/", "texto":"Pró-Livro"},
-      {"ref":"https://brasilescola.uol.com.br/literatura/capitu-traiu-bentinho.htm","texto":"Brasil Escola"},
-      {"ref":"https://teoriaedebate.org.br/estante/a-ditadura-envergonhada-v-1-a-ditadura-escancarada-v-2/","texto":"Teoria e Debate"},
-      {"ref":"https://brasilescola.uol.com.br/literatura/capitu-traiu-bentinho.htm","texto":"Brasil Escola"}
+      {"ref":"https://www.amazon.com.br/Pol%C3%ADtica-Para-n%C3%A3o-Ser-Idiota/dp/8561773162/ref=asc_df_8561773162/?tag=googleshopp00-20&linkCode=df0&hvadid=379708339368&hvpos=&hvnetw=g&hvrand=3054265231264332859&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1001773&hvtargid=pla-811852460535&psc=1",
+        "texto":"Política: Para não ser um idiota"},
+      {"ref":"https://www.amazon.com.br/Comunica%C3%A7%C3%A3o-n%C3%A3o-violenta-relacionamentos-profissionais/dp/8571832641/ref=asc_df_8571832641/?tag=googleshopp00-20&linkCode=df0&hvadid=379738562392&hvpos=&hvnetw=g&hvrand=3054265231264332859&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1001773&hvtargid=pla-1368992523055&psc=1",
+        "texto":"Cominicação não violenta"},
+      {"ref":"https://www.amazon.com.br/Biologia-Cren%C3%A7a-Ph-d-Bruce-Lipton/dp/858847767X/ref=asc_df_858847767X/?tag=googleshopp00-20&linkCode=df0&hvadid=379805264048&hvpos=&hvnetw=g&hvrand=3054265231264332859&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1001773&hvtargid=pla-811416676753&psc=1",
+        "texto":"A biologia da crença"},
+      {"ref":"https://www.amazon.com.br/Como-democracias-morrem-Steven-Levitsky/dp/8537818003/ref=pd_bxgy_img_2/142-8502258-6685320?pd_rd_w=EluqM&pf_rd_p=4a943320-02ab-4775-ad7a-eaf57d00a244&pf_rd_r=45ECD322WBV6ZTDFYCW9&pd_rd_r=e195ced5-f34a-47a4-8493-c0c7870e2745&pd_rd_wg=qoxwf&pd_rd_i=8537818003&psc=1",
+        "texto":"Como as democracias morrem"}
     ],
     "cols": 1,
     "rows": 2
   },
   {
-    "titulo": "Educação e Leitura: Fundação Victor Civita",
-    "subtitulo":"Carlos Leite e os 50 livros da história",
+    "titulo": "Educação e Leitura para crianças",
+    "subtitulo":"Livros infanto-juvenil para aprendizado e entreterimento",
     "img": "../../assets/imagens/cover4.png",
-    "conteudo":"Aqui você vai encontrar os livros que serão as melhores fontes de debates e construção de retórica para o mês de janeiro.",
+    "conteudo":"Aqui você vai encontrar alguns titúlos de livros para a criançada se divertir enquanto aprende e ganha gosto pela literatura.",
+    "estrela": "star",
     "link":[
-      {"ref":"https://fvc.org.br/", "texto":"Biblioteca FVC"},
-      {"ref":"https://www.revistabula.com/7802-os-melhores-livros-da-historia-da-literatura/","texto":"Revista Bula"},
-      {"ref":"https://www.amazon.com.br/b?ie=UTF8&node=6311441011","texto":"Anazon Livros Gratuitos"}
+      {"ref":"https://www.amazon.com.br/parte-que-falta-Shel-Silverstein/dp/8574068179/ref=pd_bxgy_img_1/142-8502258-6685320?pd_rd_w=gnVmT&pf_rd_p=4a943320-02ab-4775-ad7a-eaf57d00a244&pf_rd_r=FY6NP6TB95GYBGNH6AWG&pd_rd_r=9349d773-5037-4b8a-bbb5-5393b96d1167&pd_rd_wg=SXFHq&pd_rd_i=8574068179&psc=1",
+        "texto":"A parte que falta"},
+      {"ref":"https://www.amazon.com.br/Emocion%C3%A1rio-Diga-que-voc%C3%AA-sente/dp/8543106591/ref=pd_sbs_3/142-8502258-6685320?pd_rd_w=NdvB1&pf_rd_p=815ff111-afd5-40df-8cf7-6dab3233ea5a&pf_rd_r=HJN506WKRXW424Y2E6D7&pd_rd_r=d177aacb-c2be-416c-b54c-6f0c5fbd9b4f&pd_rd_wg=4CORh&pd_rd_i=8543106591&psc=1",
+        "texto":"Emocionário: Diga o que você sente"},
+      {"ref":"https://www.amazon.com.br/Tempo-Que-Televis%C3%A3o-Mandava-Carlinhos/dp/8516074889/ref=asc_df_8516074889/?tag=googleshopp00-20&linkCode=df0&hvadid=379792414982&hvpos=&hvnetw=g&hvrand=16063494876579302128&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1001773&hvtargid=pla-387924963088&psc=1",
+        "texto":"No Tempo Em Que A Televisão Mandava No Carlinhos"},
+      {"ref":"https://www.amazon.com.br/Uma-Ilha-Mil-Milhas-Daqui/dp/8510054568/ref=pd_sbs_6/142-8502258-6685320?pd_rd_w=F4vzP&pf_rd_p=815ff111-afd5-40df-8cf7-6dab3233ea5a&pf_rd_r=0GXVFVY15HMQJNZ3TVJX&pd_rd_r=6fd1463b-86ba-4abc-807f-e30a637f9b1f&pd_rd_wg=h5jNU&pd_rd_i=8510054568&psc=1",
+        "texto":"Uma ilha a mil milhas daqui"},
+      {"ref":"https://www.amazon.com.br/Quem-Salvar-Vida-Ruth-Rocha/dp/8516101916/ref=pd_sbs_7/142-8502258-6685320?pd_rd_w=F4vzP&pf_rd_p=815ff111-afd5-40df-8cf7-6dab3233ea5a&pf_rd_r=0GXVFVY15HMQJNZ3TVJX&pd_rd_r=6fd1463b-86ba-4abc-807f-e30a637f9b1f&pd_rd_wg=h5jNU&pd_rd_i=8516101916&psc=1",
+        "texto":"Quem vai salvar a vida?"},
+      {"ref":"https://www.amazon.com.br/Luana-Sementes-Zumbi-Aroldo-Macedo/dp/8532261183/ref=pd_sbs_5/142-8502258-6685320?pd_rd_w=XOJK8&pf_rd_p=815ff111-afd5-40df-8cf7-6dab3233ea5a&pf_rd_r=FF7DFYDJ3J6X743H7NZX&pd_rd_r=e6243c74-521e-4713-bf6c-0741827feaea&pd_rd_wg=UQZ1L&pd_rd_i=8532261183&psc=1",
+        "texto":"Luana - As Sementes de Zumbi"}
     ],
-    "cols": 1,
-    "rows": 2
-  },
-  {
-    "titulo": "Educação e Leitura: Fundação Victor Civita",
-    "subtitulo":"Carlos Leite e os 50 livros da história",
-    "img": "../../assets/imagens/cover4.png",
-    "conteudo":"Aqui você vai encontrar os livros que serão as melhores fontes de debates e construção de retórica para o mês de janeiro.",
-    "link":[
-      {"ref":"https://fvc.org.br/", "texto":"Biblioteca FVC"},
-      {"ref":"https://www.revistabula.com/7802-os-melhores-livros-da-historia-da-literatura/","texto":"Revista Bula"},
-      {"ref":"https://www.amazon.com.br/b?ie=UTF8&node=6311441011","texto":"Anazon Livros Gratuitos"}
-    ],
-    "cols": 1,
-    "rows": 2
+    "cols": 2,
+    "rows": 3
   }
 ]
