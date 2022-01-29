@@ -15,9 +15,11 @@
         <mat-nav-list>
           <mat-list-item *ngFor="let link of card.link">
             <a matLine [href]="link.ref">{{ link.texto }}</a>
-            <button mat-icon-button>
-              <mat-icon>info</mat-icon>
-            </button>
+            <p>
+              <button mat-icon-button color="accent" class="icon">
+                <mat-icon>{{card.estrela}}</mat-icon>
+              </button>
+            </p>
           </mat-list-item>
         </mat-nav-list>
       </mat-card>
