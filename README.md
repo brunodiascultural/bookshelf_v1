@@ -15,6 +15,7 @@ Esta aplicação será um modelo didático para montagem de NodeJs, com padrões
 Para começar com o Bookshelf, você precisará de uma conta do Bookshelf e uma senha.
 
 
+![image](https://user-images.githubusercontent.com/83181304/151684802-cb433453-45e1-4b22-80cc-ec2f2a45b042.png)
 
 
 ## Further help
