@@ -1,6 +1,6 @@
 import { Component, Inject } from '@angular/core';
-import { FormBuilder, FormControl, Validators } from '@angular/forms';
-import { MAT_DIALOG_DATA } from '@angular/material/dialog';
+import { FormBuilder, FormControl, Validators, FormGroup } from '@angular/forms';
+import { MAT_DIALOG_DATA, MatDialog } from '@angular/material/dialog';
 import { Router } from '@angular/router';
 import { HotToastService } from '@ngneat/hot-toast';
 
@@ -13,41 +13,55 @@ import { AutenticacaoFirebaseService } from './../servicosInterface/autenticacao
 })
 export class AppLoginComponent {
   formularioLogin = this.loginBuilder.group({
-    email: new FormControl('',[Validators.required, Validators.email]),
+    email: new FormControl('', [Validators.required, Validators.email]),
     senha: new FormControl('', Validators.required)
   });
 
-  hasUnitNumber=false;
+  hasUnitNumber = false;
 
   constructor(
     private loginBuilder: FormBuilder,
-    @Inject(MAT_DIALOG_DATA) public conteudo:string,
+    @Inject(MAT_DIALOG_DATA) public conteudo: string,
     private toast: HotToastService,
     private rotas: Router,
+    private telaLogin: MatDialog,
     private autenticacaoFirebaseService: AutenticacaoFirebaseService
-    ) {}
+  ) { }
 
-    get email(){
-      return this.formularioLogin.get('email')
-    }
+  get email() {
+    return this.formularioLogin.get('email')
+  }
 
-    get senha(){
-      return this.formularioLogin.get('senha')
+  get senha() {
+    return this.formularioLogin.get('senha')
+  }
+  loginFirebase() {
+    if (!this.formularioLogin.valid) {
+      return;
     }
-    loginFirebase(){
-      if(!this.formularioLogin.valid){
-        return;
-      }
-      const {email, senha} = this.formularioLogin.value;
-      this.autenticacaoFirebaseService.loginUsuario(email, senha)
+    const { email, senha } = this.formularioLogin.value;
+    this.autenticacaoFirebaseService.loginUsuario(email, senha)
       .pipe(
         this.toast.observe({
           success: 'Login valido, obrigado',
           loading: 'Redirecionando...',
           error: 'Algo deu errado, confira as informações'
         })
-      ).subscribe(()=>{
+      ).subscribe(() => {
         this.rotas.navigate(['/cdd'])
+        this.telaLogin.closeAll;
+        this.resetarCamposLogin();
       })
   }
+  // limpar campo após login
+  resetarCamposLogin() {
+    this.formularioLogin.reset();
+    console.log("Campo Limpo");
+    this.formularioLogin = new FormGroup({
+      email: new FormControl(null),
+      senha: new FormControl(null),
+    });
+
+  }
+
 }
