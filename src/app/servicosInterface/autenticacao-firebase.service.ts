@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { Auth } from '@angular/fire/auth';
-import { createUserWithEmailAndPassword, signInWithEmailAndPassword, updateProfile, GoogleAuthProvider, getAuth, signInWithPopup, signInWithRedirect } from 'firebase/auth';
+import { createUserWithEmailAndPassword, signInWithEmailAndPassword, updateProfile, GoogleAuthProvider, getAuth, signInWithPopup, signInWithRedirect, sendEmailVerification, sendPasswordResetEmail } from 'firebase/auth';
 import { authState } from 'rxfire/auth';
 import { from, switchMap } from 'rxjs';
 
@@ -48,5 +48,10 @@ export class AutenticacaoFirebaseService {
       // return from(signInWithRedirect(this.auth, provider))
 
     };
+
+    emailRecupSenha(usuarioEmail: string) {
+        return from(sendPasswordResetEmail(this.auth, usuarioEmail))
+
+    }
 
 }
