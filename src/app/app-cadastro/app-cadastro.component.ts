@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { AbstractControl, FormBuilder, FormControl, ValidationErrors, ValidatorFn, Validators } from '@angular/forms';
+import { AbstractControl, FormBuilder, FormControl, FormGroup, ValidationErrors, ValidatorFn, Validators } from '@angular/forms';
 import { Router } from '@angular/router';
 import { HotToastService } from '@ngneat/hot-toast';
 
@@ -76,8 +76,21 @@ export class AppCadastroComponent implements OnInit {
         })
       ).subscribe(() => {
         this.rotas.navigate(['/'])
+        this.resetarCampoCadastro();
       });
   }
+  // Rotina limpar campo de cadastro
+  resetarCampoCadastro() {
+    this.formularioCadastro.reset();
+    console.log("Campo de cadastro limpo");
+    this.formularioCadastro = new FormGroup({
+      nome: new FormControl(null),
+      email: new FormControl(null),
+      senha: new FormControl(null),
+      confirmaSenha: new FormControl(null),
+    })
+  }
+
   ngOnInit(): void {
   }
 }
