@@ -1,0 +1,38 @@
+[
+  {
+    "titulo": "O pequeno príncipe",
+    "subtitulo": "Magia e Ficção",
+    "estrela": "star star star star star",
+    "img": "https://images-na.ssl-images-amazon.com/images/I/419ebAR2eeL._SX346_BO1,204,203,200_.jpg",
+    "conteudo": "Essa obra tem a autoria de Antoine de Saint-Exupéry e certamente você já citou algumas de suas frases ou viu alguém fazendo isso. Quando o autor foi exilado para a América do Norte durante a Segunda Guerra Mundial, passou a escrever muitos textos com foco em saudade e nas lembranças da infância. A história do príncipe que caiu na Terra é uma delas.    Com uma temática forte sobre amizades e sentimentos, “O pequeno príncipe” já foi traduzido para mais de 200 línguas e dialetos. É fato que Exupéry se tornou responsável por aquilo que cativou, só para citar uma das frases da obra.",
+    "cols": 1,
+    "rows": 2
+  },
+  {
+    "titulo": "Sapiens: História Breve da Humanidade",
+    "subtitulo": "Auto Ajuda",
+    "estrela": "star star star",
+    "img": "https://images-na.ssl-images-amazon.com/images/I/51fuvXO6wvL._SY344_BO1,204,203,200_QL70_ML2_.jpg",
+    "conteudo": "Yuval Noah Harari é um historiador que já tem vários livros best-sellers como esse, que tenta nos dar respostas sobre o motivo do Homo sapiens ter resistido diante de tantas espécies. Para isso, o autor passa pelas revoluções cognitiva, agrícola e científica para explicar os eventos mais marcantes da humanidade.É uma das dicas de leitura que abre a sua mente para a vida na Terra e o quanto somos pequenos no meio de tudo.",
+    "cols": 1,
+    "rows": 2
+  },
+  {
+    "titulo": "O dilema do porco-espinho",
+    "subtitulo": "Auto Ajuda",
+    "estrela": "star star star",
+    "img": "https://m.media-amazon.com/images/I/51L0gx0ITpL._SY346_.jpg",
+    "conteudo": "De Leandro Karnal, essa publicação faz a gente refletir sobre viver sozinho: bom ou ruim? Para isso, o autor busca respostas no cinema, na literatura, na música… Não só isso: ele retrata a liquidez da nossa sociedade e como o virtual é uma forma de “despistar” a nossa solidão.",
+    "cols": 1,
+    "rows": 2
+  },
+  {
+    "titulo": "A hora da estrela",
+    "subtitulo": "Romance",
+    "estrela": "star star",
+    "img": "https://images-na.ssl-images-amazon.com/images/I/41Laz2CTpWL._SX326_BO1,204,203,200_.jpghttps://images-na.ssl-images-amazon.com/images/I/31W5yKPv83L._SY344_BO1,204,203,200_QL70_ML2_.jpg",
+    "conteudo": "Macabéa é uma alagoana recém-chegada ao Rio de Janeiro, que vai levando a vida como datilógrafa, mas passa por muito sofrimento — foi abandonada pelo namorado que quer ascensão social e teve princípio de tuberculose, para começar. O grande ponto da história acontece ao visitar uma cartomante, mas sem #spoilers.O livro é de Clarice Lispector, que veio da Ucrânia para o Brasil bem jovem. Ela é famosa por narrar suas histórias de forma única, mesclando vários gêneros.",
+    "cols": 1,
+    "rows": 2
+  }
+]
