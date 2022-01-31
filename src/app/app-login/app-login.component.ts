@@ -3,6 +3,7 @@ import { FormBuilder, FormControl, FormGroup, Validators } from '@angular/forms'
 import { MAT_DIALOG_DATA } from '@angular/material/dialog';
 import { Router } from '@angular/router';
 import { HotToastService } from '@ngneat/hot-toast';
+import { ReCaptchaV3Service } from 'ng-recaptcha';
 
 import { AutenticacaoFirebaseService } from './../servicosInterface/autenticacao-firebase.service';
 
@@ -23,12 +24,19 @@ export class AppLoginComponent {
 
   hasUnitNumber=false;
 
+  public reactiveForm: FormGroup = new FormGroup({
+    recaptchaReactive: new FormControl(null, Validators.required)
+  });
+
+  public log: string[] = [];
+
   constructor(
     private loginBuilder: FormBuilder,
     @Inject(MAT_DIALOG_DATA) public conteudo:string,
     private toast: HotToastService,
     private rotas: Router,
-    private autenticacaoFirebaseService: AutenticacaoFirebaseService
+    private autenticacaoFirebaseService: AutenticacaoFirebaseService,
+    private reCaptchaV3Service: ReCaptchaV3Service
     ) {}
 
     get email(){

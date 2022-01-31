@@ -30,6 +30,7 @@ import { AppComponent } from './app.component';
 import { FeedComponent } from './feed/feed.component';
 import { NavegacaoComponent } from './navegacao/navegacao.component';
 import { AppCadastroComponent } from './app-cadastro/app-cadastro.component';
+import { RecaptchaModule } from 'ng-recaptcha';
 
 @NgModule({
   declarations: [
@@ -58,6 +59,7 @@ import { AppCadastroComponent } from './app-cadastro/app-cadastro.component';
     MatSelectModule,
     MatRadioModule,
     ReactiveFormsModule,
+    RecaptchaModule,
     provideFirebaseApp(() => initializeApp(environment.firebase)),
     provideAuth(() => getAuth()),
     provideDatabase(() => getDatabase()),
