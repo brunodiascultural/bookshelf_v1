@@ -1,5 +1,5 @@
 import { Component, Inject } from '@angular/core';
-import { FormBuilder, FormControl, Validators } from '@angular/forms';
+import { FormBuilder, FormControl, FormGroup, Validators } from '@angular/forms';
 import { MAT_DIALOG_DATA } from '@angular/material/dialog';
 import { Router } from '@angular/router';
 import { HotToastService } from '@ngneat/hot-toast';
@@ -51,10 +51,19 @@ export class AppLoginComponent {
           error: 'Algo deu errado, confira as informações'
         })
       ).subscribe(()=>{
-        this.rotas.navigate(['/cdd'])
+        this.rotas.navigate(['/cdd']);
+        this.resetarCamposLogin();
       })
   }
-
+  // Rotina limpar campo de login
+  resetarCamposLogin() {
+    this.formularioLogin.reset();
+    console.log("Campo de login limpo");
+    this.formularioLogin = new FormGroup({
+      email: new FormControl(null),
+      senha: new FormControl(null),
+    })
+  }
 
     loginUsuarioGgle(){
       this.autenticacaoFirebaseService.loginUsuarioGoogle()
@@ -80,9 +89,19 @@ export class AppLoginComponent {
             loading: 'Carregando...',
             error: 'Algo deu errado, verifique as informações'
           })).subscribe(()=>{
-            this.rotas.navigate([''])
+            this.rotas.navigate(['']);
+            this.resetarCampoRecupSenha();
           })
 
       }
+
+          // Rotina limpar campo de recuperaçao de senha
+          resetarCampoRecupSenha() {
+          this.formularioRecup.reset();
+          console.log("Campo de recuperação de Senha limpo");
+          this.formularioRecup = new FormGroup({
+            email: new FormControl(null),
+          })
+        }
 
 }
