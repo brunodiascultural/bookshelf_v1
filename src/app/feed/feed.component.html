@@ -14,7 +14,7 @@
         </mat-card-content>
         <mat-nav-list>
           <mat-list-item *ngFor="let link of card.link">
-            <a matLine [href]="link.ref">{{ link.texto }}</a>
+            <a matLine [href]="link.ref" target="_blank">{{ link.texto }}</a>
             <p>
               <button mat-icon-button color="accent" class="icon">
                 <mat-icon>{{card.estrela}}</mat-icon>
