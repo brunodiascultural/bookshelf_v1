@@ -4,7 +4,12 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { canActivate, redirectUnauthorizedTo } from '@angular/fire/auth-guard';
 import { SugestoesComponent } from './sugestoes/sugestoes.component';
+
 import { EspecialMesComponent } from './especial-mes/especial-mes.component';
+
+import { SagaComponent } from './saga/saga.component';
+
+
 
 const enviarSemLogin = () => redirectUnauthorizedTo(['/app-app-cadastro']);
 
@@ -36,6 +41,11 @@ const routes: Routes = [
   {
     path: 'sugestoes',
     component: SugestoesComponent,
+    ...canActivate(enviarSemLogin),
+  },
+  {
+    path: 'saga',
+    component: SagaComponent,
     ...canActivate(enviarSemLogin),
   },
 ];

@@ -31,7 +31,11 @@ import { FeedComponent } from './feed/feed.component';
 import { NavegacaoComponent } from './navegacao/navegacao.component';
 import { AppCadastroComponent } from './app-cadastro/app-cadastro.component';
 import { SugestoesComponent } from './sugestoes/sugestoes.component';
+
 import { EspecialMesComponent } from './especial-mes/especial-mes.component';
+
+import { SagaComponent } from './saga/saga.component';
+
 
 @NgModule({
   declarations: [
@@ -42,6 +46,7 @@ import { EspecialMesComponent } from './especial-mes/especial-mes.component';
     AppCadastroComponent,
     SugestoesComponent,
     EspecialMesComponent,
+    SagaComponent,
   ],
   imports: [
     BrowserModule,
