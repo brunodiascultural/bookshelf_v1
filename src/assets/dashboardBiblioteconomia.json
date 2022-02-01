@@ -1,0 +1,81 @@
+[
+  {
+    "titulo": "Literatura e Ficção",
+    "img": "https://cdn.pensador.com/img/frase/gk/ch/g_k_chesterton_a_literatura_e_um_luxo_a_ficcao_e_uma_ne_l0gqdmy.jpg",
+    "conteudo": "Criação da imaginação, invenção fabulosa, opõe-se ao que é real; fantasia. [Artes] Criação artística que se pauta em elementos ou personagens irreais, frutos da imaginação. [Literatura] Literatura de ficção, a novelística (narrativa, lírica ou teatral).",
+    "link": [
+      {
+        "ref": "https://www.amazon.com.br/s?k=livros+fic%C3%A7%C3%A3o+cient%C3%ADfica&i=stripbooks&crid=2SZGURYWJZA8D&sprefix=livros+fic%C3%A7%C3%A3o%2Cstripbooks%2C192&ref=nb_sb_ss_ts-doa-p_1_13",
+        "texto": "Amazon"
+      }
+    ],
+    "cols": 1,
+    "rows": 2
+  },
+  {
+    "titulo": "Romance",
+    "img": "https://www.deveserisso.com.br/blog/wp-content/uploads/2017/04/livros-de-romance-2017.jpg",
+    "conteudo": "Uma obra literária que apresenta narrativa em prosa, normalmente longa, com fatos criados ou relacionados a personagens, que vivem diferentes conflitos ou situações dramáticas, numa sequência de tempo relativamente ampla..",
+    "link": [
+      {
+        "ref": "https://www.amazon.com.br/s?k=livros+romance&rh=n%3A7882391011&__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&ref=nb_sb_noss",
+        "texto": "Amazon"
+      }
+    ],
+    "cols": 1,
+    "rows": 2
+  },
+  {
+    "titulo": "Motivacional Auto-Ajuda",
+    "img": "https://1.bp.blogspot.com/-Cq_u1breWgc/XxWi_M0JfdI/AAAAAAAALNA/YklCBgMOTwYV5gk2NkEQuVesFS76z14yACLcBGAsYHQ/s640/resenha-as-coisas-que-voce-so-ve-quando-desacelera-beleza-nerd%25281%2529.jpg",
+    "conteudo": "A autoajuda literária é configurada por um conjunto de obras que tem por objetivo fazer o leitor pensar sobre seus próprios problemas ou aprimorar suas habilidades e, para isso, as narrativas do gênero fornecem variadas alternativas para todo tipo de assunto.",
+    "link": [
+      {
+        "ref": "https://www.amazon.com.br/s?k=livros+auto+ajuda&rh=n%3A7841728011&__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&ref=nb_sb_noss",
+        "texto": "Amazon"
+      }
+    ],
+    "cols": 1,
+    "rows": 2
+  },
+  {
+    "titulo": "Ficção Científica Fantasia",
+    "img": "https://segredosdomundo.r7.com/wp-content/uploads/2020/09/ficcao-cientifica-como-surgiu-o-genero-literario-e-algumas-obras-classicas-960x540.jpg",
+    "conteudo": "Gênero misto de narrativa que contém alguns elementos de ficção científica e fantasia.[1] Ambos os gêneros e especialmente a fantasia, são eles mesmos pobremente definidos; conseqüentemente, a fantasia científica se furta ainda mais a uma definição.",
+    "link": [
+      {
+        "ref": "https://www.amazon.com.br/s?k=livros+star+trek&rh=n%3A7841777011&__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&ref=nb_sb_noss",
+        "texto": "Amazon"
+      }
+    ],
+    "cols": 1,
+    "rows": 2
+  },
+  {
+    "titulo": "Livros de Romance para Adolescentes",
+    "img": "https://cdn.pensador.com/img/imagens/li/vr/livrosparaadolescentes_29.jpg",
+    "conteudo": "Começamos com os queridos do público: os romances. Ao contrário do que o nome indica, os livros de romance não necessariamente envolvem uma história de amor, mas são sempre histórias longas, muito bem estruturadas e envolventes.",
+    "link": [
+      {
+        "ref": "https://www.amazon.com.br/s?k=livros+adolescentes&i=stripbooks&rh=n%3A6740748011%2Cn%3A7841279011%2Cn%3A15280894011%2Cn%3A15280897011&dc&__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&qid=1643344865&rnid=6740748011&ref=sr_nr_n_1",
+        "texto": "Amazon"
+      }
+    ],
+    "cols": 1,
+    "rows": 2
+  },
+  {
+    "titulo": "Ficção Científica",
+    "img": "https://i.zst.com.br/images/ficcao-cientifica-conheca-9-dos-melhores-livros-ja-publicados-photo819789584-44-11-18.jpg",
+    "conteudo": "A ficção científica é um gênero cujos conteúdos se baseiam em supostos feitos científicos ou técnicos que poderiam acontecer no futuro. Este fundamento científico faz que a ficção científica se diferencie do gênero fantástico, onde as situações e os personagens são fruto da imaginação.",
+    "link": [
+      {
+        "ref": "https://www.amazon.com.br/s?k=livros+fic%C3%A7%C3%A3o+cientifica&rh=n%3A7841777011&__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&ref=nb_sb_noss",
+        "texto": "Amazon"
+      }
+    ],
+    "cols": 1,
+    "rows": 2
+  }
+
+]
