@@ -29,17 +29,15 @@ import { AppLoginComponent } from './app-login/app-login.component';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BiblioteconomiaComponent } from './biblioteconomia/biblioteconomia.component';
+import { DireitoComponent } from './direito/direito.component';
+import { EmpreendedorismoComponent } from './empreendedorismo/empreendedorismo.component';
 import { EspecialMesComponent } from './especial-mes/especial-mes.component';
 import { FeedComponent } from './feed/feed.component';
 import { NavegacaoComponent } from './navegacao/navegacao.component';
-// import { PsicologiaComponent } from './psicologia/psicologia.component';
+import { PsicologiaComponent } from './psicologia/psicologia.component';
 import { SagaComponent } from './saga/saga.component';
-
-import { TeatroComponent } from './teatro/teatro.component';
-import { DireitoComponent } from './direito/direito.component';
-import { EmpreendedorismoComponent } from './empreendedorismo/empreendedorismo.component';
-
 import { SugestoesComponent } from './sugestoes/sugestoes.component';
+import { TeatroComponent } from './teatro/teatro.component';
 
 
 
@@ -55,13 +53,9 @@ import { SugestoesComponent } from './sugestoes/sugestoes.component';
     SagaComponent,
     TeatroComponent,
     DireitoComponent,
-    // TecnologiaComponent,
-    // ArtesComponent,
     EmpreendedorismoComponent,
-    // VestibularesComponent ,
-
-
     BiblioteconomiaComponent,
+    PsicologiaComponent,
   ],
 
   imports: [
