@@ -32,7 +32,7 @@ import { BiblioteconomiaComponent } from './biblioteconomia/biblioteconomia.comp
 import { EspecialMesComponent } from './especial-mes/especial-mes.component';
 import { FeedComponent } from './feed/feed.component';
 import { NavegacaoComponent } from './navegacao/navegacao.component';
-import { PsicologiaComponent } from './psicologia/psicologia.component';
+// import { PsicologiaComponent } from './psicologia/psicologia.component';
 import { SagaComponent } from './saga/saga.component';
 
 import { TeatroComponent } from './teatro/teatro.component';
@@ -63,7 +63,7 @@ import { SugestoesComponent } from './sugestoes/sugestoes.component';
 
     BiblioteconomiaComponent,
   ],
-  
+
   imports: [
     BrowserModule,
     AppRoutingModule,
