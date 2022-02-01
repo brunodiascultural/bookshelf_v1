@@ -31,6 +31,9 @@ import { FeedComponent } from './feed/feed.component';
 import { NavegacaoComponent } from './navegacao/navegacao.component';
 import { AppCadastroComponent } from './app-cadastro/app-cadastro.component';
 import { SugestoesComponent } from './sugestoes/sugestoes.component';
+
+import { EspecialMesComponent } from './especial-mes/especial-mes.component';
+
 import { SagaComponent } from './saga/saga.component';
 
 
@@ -42,6 +45,7 @@ import { SagaComponent } from './saga/saga.component';
     AppLoginComponent,
     AppCadastroComponent,
     SugestoesComponent,
+    EspecialMesComponent,
     SagaComponent,
   ],
   imports: [
@@ -68,9 +72,9 @@ import { SagaComponent } from './saga/saga.component';
     provideDatabase(() => getDatabase()),
     provideFirestore(() => getFirestore()),
     provideStorage(() => getStorage()),
-    HotToastModule.forRoot()
+    HotToastModule.forRoot(),
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
