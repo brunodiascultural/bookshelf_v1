@@ -80,7 +80,7 @@ const routes: Routes = [
   //   path: 'vestibulares',
   //   component: VestibularesComponent,
   //   ...canActivate(enviarSemLogin),
-  // },
+  // } ,
 ];
 
 @NgModule({

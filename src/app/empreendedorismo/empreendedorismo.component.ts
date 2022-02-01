@@ -1,5 +1,5 @@
 import { BreakpointObserver, Breakpoints } from '@angular/cdk/layout';
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { catchError, map, Observable, of } from 'rxjs';
 import { DashboardEmpreendedorismo } from '../modelosInterface/dashboardEmpreendedorismo';
 import { AutenticacaoFirebaseService } from '../servicosInterface/autenticacao-firebase.service';

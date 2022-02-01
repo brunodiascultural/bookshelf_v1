@@ -9,7 +9,7 @@ import { DashboardEmpreendedorismo } from '../modelosInterface/dashboardEmpreend
 export class DashboardEmpreendedorismoService {
   private readonly uriAPI = '../../assets/dashboardEmpreendedorismo.json';
 
-  constructor(private cardsDashboardEmpreendedorismo: HttpClient) {}
+  constructor(private cardsDashboardEmpreendedorismo:  HttpClient) {}
 
   listagemCards() {
     return this.cardsDashboardEmpreendedorismo.get<DashboardEmpreendedorismo[]>(this.uriAPI).pipe(

@@ -7,7 +7,7 @@ describe('DashboardDireitoService', () => {
 
   beforeEach(() => {
     TestBed.configureTestingModule({});
-    service = TestBed.inject(DashboardDireitoService);
+    service = TestBed.inject(DashboardDireitoService) ;
   });
 
   it('should be created', () => {

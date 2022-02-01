@@ -10,7 +10,7 @@ describe('TeatroComponent', () => {
     await TestBed.configureTestingModule({
       declarations: [ TeatroComponent ]
     })
-    .compileComponents();
+    .compileComponents() ;
   });
 
   beforeEach(() => {

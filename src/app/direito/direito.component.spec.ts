@@ -10,7 +10,7 @@ describe('DireitoComponent', () => {
     await TestBed.configureTestingModule({
       declarations: [ DireitoComponent ]
     })
-    .compileComponents();
+    .compileComponents() ;
   });
 
   beforeEach(() => {

@@ -9,7 +9,7 @@ import { DashboardDireito } from '../modelosInterface/dashboardDireito';
 export class DashboardDireitoService {
   private readonly uriAPI = '../../assets/dashboardDireito.json';
 
-  constructor(private cardsDashboardDireito: HttpClient) {}
+  constructor(private cardsDashboardDireito:  HttpClient) {}
 
   listagemCards() {
     return this.cardsDashboardDireito.get<DashboardDireito[]>(this.uriAPI).pipe(

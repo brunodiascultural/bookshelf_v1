@@ -55,7 +55,7 @@ import { EmpreendedorismoComponent } from './empreendedorismo/empreendedorismo.c
     // TecnologiaComponent,
     // ArtesComponent,
     EmpreendedorismoComponent,
-    // VestibularesComponent,
+    // VestibularesComponent ,
 
   ],
   imports: [

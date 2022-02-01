@@ -1,7 +1,7 @@
 export interface DashboardDireito {
   titulo: string;
   subtitulo: string;
-  estrela: string;
+  estrela: string ;
   img: string;
   conteudo: string;
   link: [{ ref: string; texto: string }];

@@ -10,7 +10,7 @@ describe('EmpreendedorismoComponent', () => {
     await TestBed.configureTestingModule({
       declarations: [ EmpreendedorismoComponent ]
     })
-    .compileComponents();
+    .compileComponents() ;
   });
 
   beforeEach(() => {

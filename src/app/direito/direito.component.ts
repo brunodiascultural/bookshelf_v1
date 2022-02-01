@@ -18,7 +18,7 @@ export class DireitoComponent {
       if (matches) {
         return this.cardsDireito$;
       }
-      return this.cardsDireito$;
+      return this.cardsDireito$ ;
     })
   );
 

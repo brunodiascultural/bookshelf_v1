@@ -1,5 +1,5 @@
 <div class="grid-container">
-  <h1 class="mat-h1" *ngIf="usuario$ | async as usuario">
+  <h1 class="mat-h1" *ngIf="usuario$ | async as usuario" >
     10 principais livros para o estudante de Teatro: {{ usuario.displayName }}
   </h1>
   <mat-grid-list cols="2" rowHeight="350px">

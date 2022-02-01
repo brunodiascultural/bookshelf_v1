@@ -18,7 +18,7 @@ export class TeatroComponent {
       if (matches) {
         return this.cardsTeatro$;
       }
-      return this.cardsTeatro$;
+      return  this.cardsTeatro$;
     })
   );
 

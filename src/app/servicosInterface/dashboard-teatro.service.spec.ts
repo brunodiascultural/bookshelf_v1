@@ -6,7 +6,7 @@ describe('DashboardTeatroService', () => {
   let service: DashboardTeatroService;
 
   beforeEach(() => {
-    TestBed.configureTestingModule({});
+    TestBed.configureTestingModule({}) ;
     service = TestBed.inject(DashboardTeatroService);
   });
 

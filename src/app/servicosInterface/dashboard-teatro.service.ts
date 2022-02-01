@@ -9,7 +9,7 @@ import { DashboardTeatro } from '../modelosInterface/dashboardTeatro';
 export class DashboardTeatroService {
   private readonly uriAPI = '../../assets/dashboardTeatro.json';
 
-  constructor(private cardsDashboardTeatro: HttpClient) { }
+  constructor(private cardsDashboardTeatro:  HttpClient) { }
 
       listagemCards() {
     return this.cardsDashboardTeatro.get<DashboardTeatro[]>(this.uriAPI).pipe(
