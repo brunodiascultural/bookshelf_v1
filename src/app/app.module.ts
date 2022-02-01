@@ -31,6 +31,7 @@ import { FeedComponent } from './feed/feed.component';
 import { NavegacaoComponent } from './navegacao/navegacao.component';
 import { AppCadastroComponent } from './app-cadastro/app-cadastro.component';
 import { SugestoesComponent } from './sugestoes/sugestoes.component';
+import { SagaComponent } from './saga/saga.component';
 
 
 @NgModule({
@@ -41,6 +42,7 @@ import { SugestoesComponent } from './sugestoes/sugestoes.component';
     AppLoginComponent,
     AppCadastroComponent,
     SugestoesComponent,
+    SagaComponent,
   ],
   imports: [
     BrowserModule,
