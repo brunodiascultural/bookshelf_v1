@@ -1,0 +1,71 @@
+[
+  {
+    "titulo": "Gabriel García Márquez",
+    "subtitulo": "Escritor colombiano",
+    "img": "https://s.ebiografia.com/assets/img/authors/ga/br/gabriel-garcia-marquez-l.jpg",
+    "conteudo": "Gabriel García Márquez (1927-2014) foi um escritor colombiano. Autor do livro “Cem Anos de Solidão” publicado em 1967. Recebeu o Prêmio Nobel de Literatura, em 1982, pelo conjunto da obra. Com 17 anos, decidiu se tornar escritor, segundo ele, após ler A Metamorfose de Kafka descobriu que o alemão contava as coisas da mesma maneira que sua avó.",
+    "link": [
+      {
+        "ref": "https://www.ebiografia.com/gabriel_marquez/",
+        "texto": "Bibliografia Completa"
+      },
+      {
+        "ref": "https://www.amazon.com.br/Box-Gabriel-Garc%C3%ADa-M%C3%A1rquez/dp/8501304042/ref=pd_bxgy_img_1/130-5645274-1533038?pd_rd_w=7WTpA&pf_rd_p=f6d6e5b8-8da7-4a7b-8303-08e67f79afcf&pf_rd_r=7YD1CC082EHJ7M2CM2R0&pd_rd_r=01929a6d-2cc5-444a-9486-4aca569d01f7&pd_rd_wg=onhpg&pd_rd_i=8501304042&psc=1",
+        "texto": "Amazon"
+      }
+    ],
+    "cols": 1,
+    "rows": 2
+  },
+  {
+    "titulo": "Cem Anos de Solidão",
+    "estrela": "star star star star star",
+    "img": "https://images-na.ssl-images-amazon.com/images/I/51LfawapFKL._SX344_BO1,204,203,200_.jpg",
+    "conteudo": "Em Cem anos de solidão, um dos maiores clássicos da literatura, o prestigiado autor narra a incrível e triste história dos Buendía - a estirpe de solitários para a qual não será dada “uma segunda oportunidade sobre a terra” e apresenta o maravilhoso universo da fictícia Macondo, onde se passa o romance.",
+    "link": [
+      {
+        "ref": "https://www.amazon.com.br/Cem-anos-solid%C3%A3o-Edi%C3%A7%C3%A3o-Especial/dp/8501110361/ref=sr_1_1?crid=2I2JR7IMNCBKC&keywords=cem+anos+de+solid%C3%A3o&qid=1643647588&s=books&sprefix=cem+ano%2Cstripbooks%2C259&sr=1-1",
+        "texto": "Amazon"
+      },
+      {
+        "ref": "https://www.revistabula.com/671-cem-anos-de-solidao-o-livro-que-criou-uma-geracao-de-leitores/",
+        "texto": "Crítica"
+      }
+    ],
+    "cols": 1,
+    "rows": 2
+  },
+  {
+    "titulo": "Crônica de Uma Morte Anunciada",
+    "estrela": "star star star star",
+    "img": "https://images-na.ssl-images-amazon.com/images/I/51VaM0PAN7L._SX321_BO1,204,203,200_.jpg",
+    "conteudo": "A morte de Santiago Nasar está anunciada desde a primeira linha da história. Toda a comunidade sabe do iminente assassinato movido por vingança, mas nada nem ninguém o salva de seu trágico fim. O narrador imediatamente sentencia: “No dia em que o matariam, Santiago Nasar levantou-se às 5h30 da manhã.” Fatalidade, destino, o absurdo da existência humana.",
+    "link": [
+      {
+        "ref": "https://www.amazon.com.br/Cr%C3%B4nica-anunciada-Gabriel-Garc%C3%ADa-M%C3%A1rquez/dp/8501019437/ref=sr_1_1?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=2ZF4PXA4RCNCT&keywords=Cr%C3%B4nica+de+uma+morte+anunciada&qid=1643648083&s=books&sprefix=cr%C3%B4nica+de+uma+morte+anunciad%2Cstripbooks%2C219&sr=1-1",
+        "texto": "Amazon"
+      },
+      {
+        "ref": "https://www.planocritico.com/critica-cronica-de-uma-morte-anunciada-de-gabriel-garcia-marquez/",
+        "texto": "Crítica"
+      }
+    ],
+    "cols": 1,
+    "rows": 2
+  },
+  {
+    "titulo": "O Amor nos Tempos do Cólera",
+    "estrela": "star star star star",
+    "img": "https://images-na.ssl-images-amazon.com/images/I/51p69uLWp6L._SY344_BO1,204,203,200_QL70_ML2_.jpg",
+    "conteudo": "Ainda muito jovem, o telegrafista, violinista e poeta Gabriel Elígio Garciá se apaixonou por Luiza Márquez, mas o romance enfrentou a oposição do pai da moça, coronel Nicolas, que tentou impedir o casamento enviando a filha ao interior numa viagem de um ano. Para manter seu amor, Gabriel montou, com a ajuda de amigos telegrafistas, uma rede de comunicação que alcançava Luiza onde ela estivesse. Essa é a história real dos pais de Gabriel García Márquez e foi ponto de partida de O amor nos tempos do cólera.",
+    "link": [
+      {
+        "ref": "https://www.blogletras.com/2014/08/o-amor-nos-tempos-do-colera-de-gabriel.html",
+        "texto": "Amazon"
+      },
+      { "ref": "", "texto": "Crítica" }
+    ],
+    "cols": 1,
+    "rows": 2
+  }
+]

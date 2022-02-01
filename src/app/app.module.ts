@@ -31,7 +31,7 @@ import { FeedComponent } from './feed/feed.component';
 import { NavegacaoComponent } from './navegacao/navegacao.component';
 import { AppCadastroComponent } from './app-cadastro/app-cadastro.component';
 import { SugestoesComponent } from './sugestoes/sugestoes.component';
-
+import { EspecialMesComponent } from './especial-mes/especial-mes.component';
 
 @NgModule({
   declarations: [
@@ -41,6 +41,7 @@ import { SugestoesComponent } from './sugestoes/sugestoes.component';
     AppLoginComponent,
     AppCadastroComponent,
     SugestoesComponent,
+    EspecialMesComponent,
   ],
   imports: [
     BrowserModule,
@@ -66,9 +67,9 @@ import { SugestoesComponent } from './sugestoes/sugestoes.component';
     provideDatabase(() => getDatabase()),
     provideFirestore(() => getFirestore()),
     provideStorage(() => getStorage()),
-    HotToastModule.forRoot()
+    HotToastModule.forRoot(),
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
