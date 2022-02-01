@@ -8,9 +8,11 @@ import { SugestoesComponent } from './sugestoes/sugestoes.component';
 import { EspecialMesComponent } from './especial-mes/especial-mes.component';
 
 import { SagaComponent } from './saga/saga.component';
-import { PsicologiaComponent } from './psicologia/psicologia.component';
-import { BiblioteconomiaComponent } from './biblioteconomia/biblioteconomia.component';
 
+import { DireitoComponent } from './direito/direito.component';
+import { TeatroComponent } from './teatro/teatro.component';
+import { EmpreendedorismoComponent } from './empreendedorismo/empreendedorismo.component';
+import { BiblioteconomiaComponent } from './biblioteconomia/biblioteconomia.component';
 
 
 const enviarSemLogin = () => redirectUnauthorizedTo(['/app-app-cadastro']);
@@ -60,17 +62,19 @@ const routes: Routes = [
     component: SagaComponent,
     ...canActivate(enviarSemLogin),
   },
-  // {
-  //   path: 'teatro',
-  //   component: TeatroComponent,
-  //   ...canActivate(enviarSemLogin),
-  // },
-  // {
-  //   path: 'direito',
-  //   component: DireitoComponent,
-  //   ...canActivate(enviarSemLogin),
-  // },
-  // {
+
+    {
+    path: 'teatro',
+    component: TeatroComponent,
+    ...canActivate(enviarSemLogin),
+  },
+  {
+    path: 'direito',
+    component: DireitoComponent,
+    ...canActivate(enviarSemLogin),
+  },
+   // {
+
   //   path: 'tecnologia',
   //   component: TecnologiaComponent,
   //   ...canActivate(enviarSemLogin),
@@ -80,16 +84,19 @@ const routes: Routes = [
   //   component: ArtesComponent,
   //   ...canActivate(enviarSemLogin),
   // },
-  // {
-  //   path: 'empreendedorismo',
-  //   component: EmpreendedorismoComponent,
-  //   ...canActivate(enviarSemLogin),
-  // },
+
+  {
+    path: 'empreendedorismo',
+    component: EmpreendedorismoComponent,
+    ...canActivate(enviarSemLogin),
+  },
+
   // {
   //   path: 'vestibulares',
   //   component: VestibularesComponent,
   //   ...canActivate(enviarSemLogin),
-  // },
+  // } ,
+
 ];
 
 @NgModule({

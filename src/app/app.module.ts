@@ -34,7 +34,13 @@ import { FeedComponent } from './feed/feed.component';
 import { NavegacaoComponent } from './navegacao/navegacao.component';
 import { PsicologiaComponent } from './psicologia/psicologia.component';
 import { SagaComponent } from './saga/saga.component';
+
+import { TeatroComponent } from './teatro/teatro.component';
+import { DireitoComponent } from './direito/direito.component';
+import { EmpreendedorismoComponent } from './empreendedorismo/empreendedorismo.component';
+
 import { SugestoesComponent } from './sugestoes/sugestoes.component';
+
 
 
 @NgModule({
@@ -47,15 +53,17 @@ import { SugestoesComponent } from './sugestoes/sugestoes.component';
     SugestoesComponent,
     EspecialMesComponent,
     SagaComponent,
-    BiblioteconomiaComponent,
-    PsicologiaComponent,
-    // TeatroComponent,
-    // DireitoComponent,
+    TeatroComponent,
+    DireitoComponent,
     // TecnologiaComponent,
     // ArtesComponent,
-    // EmpreendedorismoComponent,
-    // VestibularesComponent,
+    EmpreendedorismoComponent,
+    // VestibularesComponent ,
+
+
+    BiblioteconomiaComponent,
   ],
+  
   imports: [
     BrowserModule,
     AppRoutingModule,
