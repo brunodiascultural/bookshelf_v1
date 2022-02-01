@@ -39,6 +39,7 @@ import { SagaComponent } from './saga/saga.component';
 import { SugestoesComponent } from './sugestoes/sugestoes.component';
 import { TeatroComponent } from './teatro/teatro.component';
 import { VestibularesComponent } from './vestibulares/vestibulares.component';
+import { TecnologiaComponent } from './tecnologia/tecnologia.component';
 
 
 
@@ -58,6 +59,7 @@ import { VestibularesComponent } from './vestibulares/vestibulares.component';
     BiblioteconomiaComponent,
     PsicologiaComponent,
     VestibularesComponent,
+    TecnologiaComponent,
   ],
 
   imports: [
