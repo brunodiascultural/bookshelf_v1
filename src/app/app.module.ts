@@ -38,6 +38,7 @@ import { PsicologiaComponent } from './psicologia/psicologia.component';
 import { SagaComponent } from './saga/saga.component';
 import { SugestoesComponent } from './sugestoes/sugestoes.component';
 import { TeatroComponent } from './teatro/teatro.component';
+import { VestibularesComponent } from './vestibulares/vestibulares.component';
 
 
 
@@ -56,6 +57,7 @@ import { TeatroComponent } from './teatro/teatro.component';
     EmpreendedorismoComponent,
     BiblioteconomiaComponent,
     PsicologiaComponent,
+    VestibularesComponent,
   ],
 
   imports: [
