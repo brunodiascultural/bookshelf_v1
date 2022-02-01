@@ -1,15 +1,17 @@
-import { AppCadastroComponent } from './app-cadastro/app-cadastro.component';
-import { FeedComponent } from './feed/feed.component';
 import { NgModule } from '@angular/core';
-import { RouterModule, Routes } from '@angular/router';
 import { canActivate, redirectUnauthorizedTo } from '@angular/fire/auth-guard';
-import { SugestoesComponent } from './sugestoes/sugestoes.component';
-import { EspecialMesComponent } from './especial-mes/especial-mes.component';
-import { SagaComponent } from './saga/saga.component';
-import { DireitoComponent } from './direito/direito.component';
-import { TeatroComponent } from './teatro/teatro.component';
-import { EmpreendedorismoComponent } from './empreendedorismo/empreendedorismo.component';
+import { RouterModule, Routes } from '@angular/router';
+
+import { AppCadastroComponent } from './app-cadastro/app-cadastro.component';
 import { BiblioteconomiaComponent } from './biblioteconomia/biblioteconomia.component';
+import { DireitoComponent } from './direito/direito.component';
+import { EmpreendedorismoComponent } from './empreendedorismo/empreendedorismo.component';
+import { EspecialMesComponent } from './especial-mes/especial-mes.component';
+import { FeedComponent } from './feed/feed.component';
+import { PsicologiaComponent } from './psicologia/psicologia.component';
+import { SagaComponent } from './saga/saga.component';
+import { SugestoesComponent } from './sugestoes/sugestoes.component';
+import { TeatroComponent } from './teatro/teatro.component';
 
 
 const enviarSemLogin = () => redirectUnauthorizedTo(['/app-app-cadastro']);
@@ -49,11 +51,11 @@ const routes: Routes = [
     component: BiblioteconomiaComponent,
     ...canActivate(enviarSemLogin),
   },
-  // {
-  //   path: 'psicologia',
-  //   component: PsicologiaComponent,
-  //   ...canActivate(enviarSemLogin),
-  // },
+  {
+    path: 'psicologia',
+    component: PsicologiaComponent,
+    ...canActivate(enviarSemLogin),
+  },
   {
     path: 'saga',
     component: SagaComponent,
@@ -70,30 +72,11 @@ const routes: Routes = [
     component: DireitoComponent,
     ...canActivate(enviarSemLogin),
   },
-   // {
-
-  //   path: 'tecnologia',
-  //   component: TecnologiaComponent,
-  //   ...canActivate(enviarSemLogin),
-  // },
-  // {
-  //   path: 'artes',
-  //   component: ArtesComponent,
-  //   ...canActivate(enviarSemLogin),
-  // },
-
   {
     path: 'empreendedorismo',
     component: EmpreendedorismoComponent,
     ...canActivate(enviarSemLogin),
   },
-
-  // {
-  //   path: 'vestibulares',
-  //   component: VestibularesComponent,
-  //   ...canActivate(enviarSemLogin),
-  // } ,
-
 ];
 
 @NgModule({
