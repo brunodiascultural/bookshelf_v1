@@ -35,6 +35,9 @@ import { SugestoesComponent } from './sugestoes/sugestoes.component';
 import { EspecialMesComponent } from './especial-mes/especial-mes.component';
 
 import { SagaComponent } from './saga/saga.component';
+import { TeatroComponent } from './teatro/teatro.component';
+import { DireitoComponent } from './direito/direito.component';
+import { EmpreendedorismoComponent } from './empreendedorismo/empreendedorismo.component';
 
 
 @NgModule({
@@ -47,6 +50,13 @@ import { SagaComponent } from './saga/saga.component';
     SugestoesComponent,
     EspecialMesComponent,
     SagaComponent,
+    TeatroComponent,
+    DireitoComponent,
+    // TecnologiaComponent,
+    // ArtesComponent,
+    EmpreendedorismoComponent,
+    // VestibularesComponent,
+
   ],
   imports: [
     BrowserModule,
