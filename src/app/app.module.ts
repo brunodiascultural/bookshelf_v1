@@ -23,21 +23,24 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HotToastModule } from '@ngneat/hot-toast';
 
 import { environment } from '../environments/environment';
+import { AppCadastroComponent } from './app-cadastro/app-cadastro.component';
 import { AppMaterialModule } from './app-compartilhado/app-material/app-material.module';
 import { AppLoginComponent } from './app-login/app-login.component';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { BiblioteconomiaComponent } from './biblioteconomia/biblioteconomia.component';
+import { EspecialMesComponent } from './especial-mes/especial-mes.component';
 import { FeedComponent } from './feed/feed.component';
 import { NavegacaoComponent } from './navegacao/navegacao.component';
-import { AppCadastroComponent } from './app-cadastro/app-cadastro.component';
-import { SugestoesComponent } from './sugestoes/sugestoes.component';
-
-import { EspecialMesComponent } from './especial-mes/especial-mes.component';
-
+import { PsicologiaComponent } from './psicologia/psicologia.component';
 import { SagaComponent } from './saga/saga.component';
+
 import { TeatroComponent } from './teatro/teatro.component';
 import { DireitoComponent } from './direito/direito.component';
 import { EmpreendedorismoComponent } from './empreendedorismo/empreendedorismo.component';
+
+import { SugestoesComponent } from './sugestoes/sugestoes.component';
+
 
 
 @NgModule({
@@ -57,7 +60,10 @@ import { EmpreendedorismoComponent } from './empreendedorismo/empreendedorismo.c
     EmpreendedorismoComponent,
     // VestibularesComponent ,
 
+
+    BiblioteconomiaComponent,
   ],
+  
   imports: [
     BrowserModule,
     AppRoutingModule,
