@@ -1,9 +1,9 @@
 <div class="grid-container">
   <h1 class="mat-h1" *ngIf="usuario$ | async as usuario">
-    As 10 principais Sagas da literatura: {{ usuario.displayName }}
+    Os 10 melhores Livros de Tecnologia: {{ usuario.displayName }}
   </h1>
   <mat-grid-list cols="2" rowHeight="350px">
-    <mat-grid-tile *ngFor="let card of cardsSaga$ | async" [colspan]="card.cols" [rowspan]="card.rows">
+    <mat-grid-tile *ngFor="let card of cardsTecnologia$ | async" [colspan]="card.cols" [rowspan]="card.rows">
       <mat-card class="dashboard-card">
         <mat-card-title-group>
           <mat-card-title>{{ card.titulo }}</mat-card-title>
