@@ -2,6 +2,7 @@
   {
     "titulo": "Educação Tecnológica e Mídias Infantis: Interpretações Etnográficas",
     "subtitulo": "Márcio Bonesso",
+    "estrela": "star star star star",
     "img": "https://images-na.ssl-images-amazon.com/images/I/51q04DCc54L._SX347_BO1,204,203,200_.jpg",
     "conteudo": "As pesquisas deste livro associam-se pelo questionamento: quais as influências da educação tecnológica na construção da infância brasileira? O objetivo é oferecer análises possíveis sobre o que os filmes de princesas, as animações e os clipes musicais infantis dizem sobre nós enquanto sociedade.",
     "link": [
@@ -16,6 +17,7 @@
   {
     "titulo": "Futuro Presente: O Mundo Movido à Tecnologia",
     "subtitulo": "Guy Perelmuter",
+    "estrela": "star star star",
     "img": "https://images-na.ssl-images-amazon.com/images/I/41Jx4KoflWL._SX346_BO1,204,203,200_.jpg",
     "conteudo": "Inteligência Artificial, Robótica, Internet das Coisas, Nanotecnologia, Biotecnologia, Veículos Autônomos, Impressão 3D, Realidade Virtual. O mundo está passando, mais uma vez, por mudanças importantes graças aos avanços tecnológicos acumulados ao longo de milhares de anos.",
     "link": [
@@ -30,6 +32,7 @@
   {
     "titulo": "As Tecnologias da Inteligência: O Futuro do Pensamento na Era da Informática",
     "subtitulo": "Pierre Lévy ",
+    "estrela": "star star star star star",
     "img": "https://images-na.ssl-images-amazon.com/images/I/41KGxk7VG3L._SX333_BO1,204,203,200_.jpg",
     "conteudo": "Um inventário crítico da recente tecnologia que propiciou uma revolução comparável àquela ocorrida com a introdução da escrita na cultura ocidental. Lévy demonstra que a cultura da informática é uma nova forma de assimilação de conhecimento e um novo caminho para a produção intelectual - uma etapa posterior à da expressão oral e escrita.",
     "link": [
@@ -44,6 +47,7 @@
   {
     "titulo": "Ensino Híbrido: Personalização e Tecnologia na Educação",
     "subtitulo": "Lilian Bacich ",
+    "estrela": "star star star star",
     "img": "https://images-na.ssl-images-amazon.com/images/I/51lsalcuOXL._SX344_BO1,204,203,200_.jpg",
     "conteudo": "Ensino híbrido: personalização e tecnologia da educação é um livro feito por professores para professores. Resultado das reflexões dos participantes do Grupo de Experimentações em Ensino Híbrido desenvolvido pelo Instituto Península e pela Fundação Lemann, este livro apresentar aos educadores possibilidades de integração das tecnologias digitais.",
     "link": [
@@ -58,6 +62,7 @@
   {
     "titulo": "Tecnologias Para Aprender",
     "subtitulo": "Carla Viana Coscarelli ",
+    "estrela": "star star star star",
     "img": "https://images-na.ssl-images-amazon.com/images/I/51oFPRIoXYL._SY344_BO1,204,203,200_QL70_ML2_.jpg",
     "conteudo": "Como aprender usando tecnologias ou o que precisamos aprender para usar as tecnologias de maneira crítica, autônoma e cidadã. Em um sentido ou em outro, essas são possibilidades apresentadas por este livro, cujos autores vêm se dedicando ao tema do letramento digital desde que o mundo passou a se conectar via redes telemáticas.",
     "link": [
@@ -72,6 +77,7 @@
   {
     "titulo": "A Nova Idade das Trevas: A Tecnologia e o Fim do Futuro",
     "subtitulo": "James Bridle",
+    "estrela": "star star star",
     "img": "https://images-na.ssl-images-amazon.com/images/I/61nqxxLkWxL._SX328_BO1,204,203,200_.jpg",
     "conteudo": "Conforme o mundo à nossa volta se torna mais tecnológico, nosso entendimento sobre ele parece diminuir. Essa tendência é reforçada pela crença de que seria possível compreender a nossa existência através da computação, e que o acúmulo de dados será suficiente para construir um mundo melhor.",
     "link": [
@@ -86,6 +92,7 @@
   {
     "titulo": "Inteligência Artificial",
     "subtitulo": "Kai-Fu Lee",
+    "estrela": "star star star star star",
     "img": "https://images-na.ssl-images-amazon.com/images/I/41USfMS+jaL._SX338_BO1,204,203,200_.jpg",
     "conteudo": "Em Inteligência artificial, o autor explica tanto para leitores leigos quanto para aqueles que já dominam o assunto, como o desenvolvimento sem precedentes da IA já está alterando as nossas vidas e expõe quais são as mudanças que podemos esperar nos próximos anos.",
     "link": [
@@ -100,6 +107,7 @@
   {
     "titulo": "A cidade inteligente: Tecnologias urbanas e democracia",
     "subtitulo": "Evgeny Morozov",
+    "estrela": "star star star star star",
     "img": "https://images-na.ssl-images-amazon.com/images/I/511a9cMuytL._SX333_BO1,204,203,200_.jpg",
     "conteudo": "Especialistas em tecnologia e seus impactos socioeconômicos Evgeny Morozov e Francesca Bria oferecem uma série de exemplos e estudos de caso de formas de gestão cooperativa. Por exemplo, as cidades de Amsterdã e de Barcelona, por meio do projeto Decode, iniciado em 2017, buscam implementar uma infraestrutura descentralizada de dados que devolve o controle sobre as informações aos cidadãos e oferece soluções de gerenciamento de dados flexíveis e atentas à privacidade.",
     "link": [
@@ -114,6 +122,7 @@
   {
     "titulo": "Ciência, tecnologia e sociedade: Desafios da Construção do Conhecimento",
     "subtitulo": "Wanda Aparecida Machado Hoffmann",
+    "estrela": "star star",
     "img": "https://images-na.ssl-images-amazon.com/images/I/51gpDVBFfyL._SX341_BO1,204,203,200_.jpg",
     "conteudo": "Esta obra reúne contribuições que abordam temáticas que envolvem a Ciência, Tecnologia e Sociedade (CTS) à luz de diferentes olhares. Esse campo de estudos encontra-se em processo de construção e transformação, proporcionando muitas possibilidadesdeintercâmbio de ideias e o fortalecimento das interfaces com as diversas áreas de conhecimento. ",
     "link": [
@@ -128,6 +137,7 @@
   {
     "titulo": "Filosofia da Tecnologia : Uma Introdução",
     "subtitulo": "Maarten J. Verkerk",
+    "estrela": "star star star star star",
     "img": "https://m.media-amazon.com/images/I/410G8+Jr+CL.jpg",
     "conteudo": "Filosofia da Tecnologia mostra desde os principais temas da tradição clássica da filosofia até os recentes avanços observados nesse campo do conhecimento. Trata-se de uma leitura essencial tanto para estudantes como para profissionais que querem pensar criticamente sobre os processos, o consumo e as consequências do uso da tecnologia.",
     "link": [
