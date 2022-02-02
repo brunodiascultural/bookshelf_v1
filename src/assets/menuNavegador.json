@@ -7,6 +7,7 @@
   {"linkMenu": "/biblioteconomia", "labelMenu": "Biblioteconomia", "hab": true},
   {"linkMenu": "/psicologia", "labelMenu": "Psicologia", "hab": true},
   {"linkMenu": "/teatro", "labelMenu": "Teatro", "hab": true},
+  {"linkMenu": "/artes", "labelMenu": "Artes", "hab": true},
   {"linkMenu": "/direito", "labelMenu": "Direito", "hab": true},
   {"linkMenu": "/tecnologia", "labelMenu": "Tecnologia", "hab": true},
   {"linkMenu": "/empreendedorismo", "labelMenu": "Empreendedorismo", "hab": true},
