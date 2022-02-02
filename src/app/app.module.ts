@@ -40,6 +40,7 @@ import { SugestoesComponent } from './sugestoes/sugestoes.component';
 import { TeatroComponent } from './teatro/teatro.component';
 import { VestibularesComponent } from './vestibulares/vestibulares.component';
 import { TecnologiaComponent } from './tecnologia/tecnologia.component';
+import { ArtesComponent } from './artes/artes.component';
 
 
 
@@ -60,6 +61,7 @@ import { TecnologiaComponent } from './tecnologia/tecnologia.component';
     PsicologiaComponent,
     VestibularesComponent,
     TecnologiaComponent,
+    ArtesComponent,
   ],
 
   imports: [
