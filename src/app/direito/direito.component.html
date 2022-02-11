@@ -1,6 +1,6 @@
 <div class="grid-container">
   <h1 class="mat-h1" *ngIf="usuario$ | async as usuario" >
-    Principais livros da área do Direito: {{ usuario.displayName }}
+    Os Principais livros da área do Direito: {{ usuario.displayName }}
   </h1>
   <mat-grid-list cols="2" rowHeight="350px">
     <mat-grid-tile *ngFor="let card of cardsDireito$ | async" [colspan]="card.cols" [rowspan]="card.rows">
